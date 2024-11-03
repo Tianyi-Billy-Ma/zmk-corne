@@ -15,7 +15,7 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
+  - {t: A, h: LGUI}
   - S
   - D
   - F
