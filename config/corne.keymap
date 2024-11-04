@@ -12,10 +12,7 @@
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
 
-&mt {
-    quick-tap-ms = <100>;
-    flavor = "tap-preferred";
-};
+&mt { quick-tap-ms = <100>; };
 
 &lt { quick-tap-ms = <100>; };
 
@@ -82,7 +79,7 @@
 &kp TAB         &kp Q       &kp W           &kp E        &kp R         &kp T        &mmv MOVE_UP     &kp Y        &kp U            &kp I         &kp O            &kp P               &kp BSPC
 &td0            &mt LGUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LSHIFT F  &kp G        &mmv MOVE_DOWN   &kp H        &mt RSHIFT J     &mt RCTRL K   &mt RIGHT_ALT L  &mt RGUI SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &kp Z       &kp X           &kp C        &kp V         &kp B        &mmv MOVE_LEFT   &kp N        &kp M            &kp COMMA     &kp DOT          &kp FSLH            &kp ESC
-                            &kp K_MUTE      &lt 1 ESC    &lt 2 SPACE   &lt 3 TAB    &mmv MOVE_RIGHT  &lt 0 ENTER  &lt 0 BACKSPACE  &lt 0 DELETE
+                            &kp K_MUTE      &lt 1 ESC    &lt 2 SPACE   &lt 3 TAB    &mmv MOVE_RIGHT  &lt 0 ENTER  &lt 4 BACKSPACE  &lt 0 DELETE
                                                                                     &kp ENTER
             >;
 
@@ -124,6 +121,18 @@
             >;
 
             label = "MOUSE";
+        };
+
+        NUM {
+            bindings = <
+&trans  &kp LEFT_BRACKET  &kp N7  &kp N8   &kp N9  &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp SEMI          &kp N4  &kp N5   &kp N6  &kp EQUAL            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE         &kp N1  &kp N2   &kp N3  &kp BACKSLASH        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &kp DOT  &kp N0  &kp MINUS            &trans  &trans  &trans  &trans
+                                                                        &trans
+            >;
+
+            label = "NUM";
         };
     };
 };
