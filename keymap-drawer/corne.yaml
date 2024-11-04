@@ -22,10 +22,10 @@ layers:
   - G
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RGUI, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -41,7 +41,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - MUTE
-  - LGUI
+  - {t: '$$mdi:keyboard-esc$$', h: lower}
   - lower
   - {t: '$$mdi:keyboard-space$$', h: '3'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -90,8 +90,8 @@ layers:
   - '|'
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
