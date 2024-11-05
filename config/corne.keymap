@@ -53,14 +53,7 @@
         tap-ms = <30>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        BLUE {
-            bindings = <&mo 0>;
-            key-positions = <42 44>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
