@@ -15,7 +15,7 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - S
   - D
   - F
@@ -24,8 +24,8 @@ layers:
   - H
   - J
   - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
