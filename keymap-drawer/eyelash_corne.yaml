@@ -296,7 +296,10 @@ layers:
 combos:
 - p: [44, 45]
   k: BLUE
+  l: [QWERTY]
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
+  l: [QWERTY]
 - p: [44, 45, 41]
   k: ReS
+  l: [QWERTY]
