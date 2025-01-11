@@ -54,16 +54,19 @@
         Layer4 {
             bindings = <&mo 4>;
             key-positions = <44 45>;
+            layers = <0>;
         };
 
         Exit {
             bindings = <&kp ESCAPE>;
             key-positions = <23 24>;
+            layers = <0>;
         };
 
         Reset {
             bindings = <&mo 5>;
             key-positions = <44 45 41>;
+            layers = <0>;
         };
     };
 
